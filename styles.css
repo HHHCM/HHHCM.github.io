@@ -1,0 +1,34 @@
+  .title {
+    background: linear-gradient(to right, rgb(166, 0, 0), #411205);
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    padding: 40px 0;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 50px;
+  }
+  .container {
+    margin: 0 auto; 
+    
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
+
